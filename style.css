@@ -1,0 +1,152 @@
+/*---------------------------
+    fonts for this website
+-----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+/*---------------------------
+    the header section
+-----------------------------*/
+.header{
+    background-image: url("images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    padding: 200px 120px;
+}
+.header-title{
+    color: #FFF;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+.header-description{
+    color: #FFF;
+    padding: 25px 0px;
+    line-height: 30px;
+    text-align: right;
+}
+.btn-primary{
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    float: right;
+    align-items: right;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*---------------------------
+    The failure section
+-----------------------------*/
+.failure{
+    margin: 150px 100px;
+    gap: 80px;
+    display: flex;
+    align-items: center;
+}
+.failure-details{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.failure-title{
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.failure-description{
+    color:#444343;
+    font-size: 16px;
+    padding: 40px 0px;
+    font-weight: 400;
+}
+.failure-list{
+    list-style-type: none;
+    /* background: url("images/tik.png") no-repeat left top; */
+    list-style-image: url("images/tik.png");
+}
+.failure-list li{
+    color:#444343;
+    padding-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+/*---------------------------
+    the plan section
+-----------------------------*/
+.my-plan{
+    margin: 100px 100px;
+    padding: 100px 50px;
+}
+.plan-title{
+    color:#151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plans-container{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.plan-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.plan-image{
+    margin: auto;
+}
+.plan-name{
+    color:#151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan-aim{
+    color:#737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+/*---------------------------
+    the call now section
+-----------------------------*/
+.cal-now-section{
+    margin: 100px 100px;
+    border-radius: 20px;
+    padding: 60px;
+    background-image:url("images/gradient1.png"), url("images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.CallNow-title{
+    color: #FFF;
+    text-align: left;
+    font-size: 65px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.btn-call{
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*---------------------------
+    the footer section
+-----------------------------*/
+.footer{
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #FFF;
+}
